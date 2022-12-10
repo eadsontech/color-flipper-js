@@ -17,3 +17,10 @@ function getRandomNumber(){
     return Math.floor(Math.random() * hex.length);
     
 }
+
+
+
+
+// Copyright date
+const date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear();
